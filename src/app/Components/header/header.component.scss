@@ -1,0 +1,20 @@
+.navbar {
+  background-color: white;
+  padding: 1.2em;
+
+  .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007af3;
+    font-size: 1.2em;
+  }
+
+  .shoppingCart {
+    font-size: 1em;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}

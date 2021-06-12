@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <div class="book-image">
+    <img src="{{ book.photourl }}" />
+  </div>
+  <div class="book-info">
+    <div class="book-text">
+      <h1>{{ book.title }}</h1>
+      <h2>{{ book.author }}</h2>
+
+      <p>
+        {{ book.description }}
+      </p>
+    </div>
+    <div class="book-price-btn">
+      <p>
+        Ksh <span>{{ book.price }}</span>
+      </p>
+      <button type="button">Buy now</button>
+    </div>
+  </div>
+</div>
