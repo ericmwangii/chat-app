@@ -8,13 +8,13 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     commit-message:
-      prefix:"bump
+      prefix:"bump"
     schedule:
       interval: "daily"
       
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     commit-message:
-      prefix:"bump
+      prefix:"bump"
     schedule:
       interval: "daily"
