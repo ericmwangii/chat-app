@@ -13,7 +13,7 @@ updates:
       interval: "daily"
       
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/books" # Location of package manifests
     commit-message:
       prefix: "bump"
     schedule:
