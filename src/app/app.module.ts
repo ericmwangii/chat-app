@@ -12,7 +12,6 @@ import { BookItemComponent } from './Components/book-item/book-item.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { AuthButtonComponent } from './Components/auth-button/auth-button.component';
 import { UserProfileComponent } from './Components/user-profile/user-profile.component';
-import { AuthComponent } from './Components/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { AuthComponent } from './Components/auth/auth.component';
     BookItemComponent,
     AuthButtonComponent,
     UserProfileComponent,
-    AuthComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,8 +28,8 @@ import { AuthComponent } from './Components/auth/auth.component';
     FontAwesomeModule,
     HttpClientModule,
     AuthModule.forRoot({
-       domain: 'dev-a8u7py4z.us.auth0.com',
-       clientId: 'SL8NEse4gCoiSHzc6deoEv9BU9vMn8m9',
+      domain: 'dev-a8u7py4z.us.auth0.com',
+      clientId: 'SL8NEse4gCoiSHzc6deoEv9BU9vMn8m9',
     }),
   ],
   providers: [],
