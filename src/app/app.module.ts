@@ -28,8 +28,8 @@ import { UserProfileComponent } from './Components/user-profile/user-profile.com
     FontAwesomeModule,
     HttpClientModule,
     AuthModule.forRoot({
-       domain: 'dev-a8u7py4z.us.auth0.com',
-       clientId: 'SL8NEse4gCoiSHzc6deoEv9BU9vMn8m9',
+      domain: 'dev-a8u7py4z.us.auth0.com',
+      clientId: 'SL8NEse4gCoiSHzc6deoEv9BU9vMn8m9',
     }),
   ],
   providers: [],
