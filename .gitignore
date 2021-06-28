@@ -17,7 +17,7 @@ chrome-profiler-events*.json
 .env
 
 #spring boot api
-/books
+books/
 
 # IDEs and editors
 /.idea
