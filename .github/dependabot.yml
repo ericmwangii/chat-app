@@ -7,18 +7,15 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    commit-message:
     schedule:
       interval: "daily"
 
   # - package-ecosystem: "maven" # See documentation for possible values
   #   directory: "/books" # Location of package manifests
-  #   commit-message:
   #   schedule:
   #     interval: "daily"
 
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/Server" # Location of package manifests
-    commit-message:
     schedule:
       interval: "daily"
