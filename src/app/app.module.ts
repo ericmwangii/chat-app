@@ -12,6 +12,7 @@ import { BookItemComponent } from './Components/book-item/book-item.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { AuthButtonComponent } from './Components/auth-button/auth-button.component';
 import { UserProfileComponent } from './Components/user-profile/user-profile.component';
+import { AuthComponent } from './Components/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UserProfileComponent } from './Components/user-profile/user-profile.com
     BookItemComponent,
     AuthButtonComponent,
     UserProfileComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
