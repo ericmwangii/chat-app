@@ -4,6 +4,11 @@
 
 export const environment = {
   production: false,
+  pusher: { key: 'c339b3daa9adbd8251a4', cluster: 'mt1' },
+  auth0: {
+    domain: 'dev-a8u7py4z.us.auth0.com',
+    clientId: 'SL8NEse4gCoiSHzc6deoEv9BU9vMn8m9',
+  },
 };
 
 /*

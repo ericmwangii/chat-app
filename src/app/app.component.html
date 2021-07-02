@@ -1,4 +1,21 @@
 <app-header></app-header>
-<app-books></app-books>
-<app-user-profile></app-user-profile>
+<!-- <app-books></app-books> -->
+<!-- <app-user-profile></app-user-profile> -->
+<!-- <app-messages></app-messages> -->
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8" [hidden]="!chatService.user">
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <app-chat></app-chat>
+      </div>
+    </div>
+    <div class="col-md-4" [hidden]="chatService.user">
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <app-my-details></app-my-details>
+      </div>
+    </div>
+  </div>
+</div>
+
 <router-outlet></router-outlet>

@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const db = require("./queries");
 const api = require("./api");
 
 const PORT = 3000;
@@ -27,13 +26,6 @@ app.use((req, res, next) => {
 app.get("/", (request, response) => {
   response.json("Hello");
 });
-
-//db
-app.post("/api/books", db.addBook);
-app.get("/api/books", db.getBooks);
-app.get("/api/books/:id", db.getBookById);
-app.put("/api/books/:id", db.updateBook);
-app.delete("/api/books/:id", db.deleteBook);
 
 //pusher
 app.use("/", api);
