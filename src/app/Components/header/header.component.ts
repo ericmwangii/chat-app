@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +6,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'E-Commerce App';
-  faShoppingCart = faShoppingCart;
+  title: string = 'Chat App';
 
   constructor() {}
 

@@ -15,9 +15,10 @@ chrome-profiler-events*.json
 
 #Environment varibales
 .env
+/enironments
 
 #spring boot api
-/books/
+/books
 
 # IDEs and editors
 /.idea
