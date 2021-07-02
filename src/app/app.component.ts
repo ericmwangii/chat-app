@@ -7,7 +7,7 @@ import { ChatService } from './Services/chat.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'e-commerceapp';
+  title = 'Chat App';
 
   constructor(public chatService: ChatService) {}
 }
